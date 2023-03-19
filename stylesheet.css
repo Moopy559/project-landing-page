@@ -1,5 +1,6 @@
 body {
-  background-color: #0d2250;
+  background-color: #1F2937;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* SECTION ONE */
@@ -7,7 +8,6 @@ body {
 .s1 {
   padding-left: 96px;
   padding-right: 96px;
-  background-color: #0d2250;
   color: white;
 }
 
@@ -16,10 +16,14 @@ body {
 }
 
 .logo {
-  font-weight: bolder;
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
 }
 
 .links {
+  font-size: 18px;
+  color: #E5E7EB;
   text-align: right;
   flex: 1;
 }
@@ -32,26 +36,30 @@ body {
   
 
 .s1-mid-left {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  padding-right: 25px;
+  justify-content: space-between;
+  padding: 0px 25px 0px 0px;
 }
 
 .s1-mid-left h1 {
-  padding-top: 0px;
   margin: 0px;
-  flex: 1;
+  padding: 0px;
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
 }
 
 .s1-mid-left p {
-    flex: 1;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .s1-mid-left button {
-    background-color: #408cff;
+    background-color: #3882F6;
     color: white;
     border-radius: 8px;
+    border: 0;
     padding: 5px 20px 5px 20px;
     width: 35%;
     font-weight: bolder;
@@ -60,17 +68,20 @@ body {
 }
   
 .img-placeholder {
-  background-color: blue;
-  padding: 10% 0;
-  text-align: center;
+  background-color: rgb(116, 116, 117);
   flex: 1;
+}
+
+.img-placeholder p {
+  text-align: center;
+  padding: 25% 25%;
 }
 
 /* SECTION TWO */
 
 .s2 {
-  padding-left: 96px;
-  padding-right: 96px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-color: white;  
   padding-top: 10px; 
   padding-bottom: 100px;
@@ -83,73 +94,100 @@ body {
 .s2-top h2 {
    text-align: center; 
    margin-bottom: 50px;
+   font-size: 36px;
+   font-weight: 800;
+   color: #1F2937;
 }
 
 .s2-top-gallery {
     display: flex;
+    justify-content: space-between;
 }
 
 .group-1 {
-    flex: 1;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .box-1 {
-    border: solid red 5px;
+    border: solid #3882F6 5px;
     border-radius: 10px;
-    padding: 70px 0px 70px 0px;
-    margin: 0 10% 0 10%;
+    max-width: 150px;
+    height: 150px;
+}
+
+.group-1 p {
+  text-align: center;
+  max-width: 160px;
 }
 
 .group-2 {
-    flex: 1;
-    text-align: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .box-2 {
-    border: solid red 5px;
+    border: solid #3882F6 5px;
     border-radius: 10px;
-    padding: 70px 0px 70px 0px;
-    margin: 0 10% 0 10%;
+    max-width: 150px;
+    height: 150px;
+}
+
+.group-2 p {
+  text-align: center;
+  max-width: 160px;
 }
 
 .group-3 {
-    flex: 1;
-    text-align: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .box-3 {
-    border: solid red 5px;
+    border: solid #3882F6 5px;
     border-radius: 10px;
-    padding: 70px 0px 70px 0px;
-    margin: 0 10% 0 10%;
+    max-width: 150px;
+    height: 150px;
+}
+
+.group-3 p {
+  text-align: center;
+  max-width: 160px;
 }
 
 .group-4 {
-    flex: 1;
-    text-align: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .box-4 {
-    border: solid red 5px;
+    border: solid #3882F6 5px;
     border-radius: 10px;
-    padding: 70px 0px 70px 0px;
-    margin: 0 10% 0 10%;
+    max-width: 150px;
+    height: 150px;
+}
+
+.group-4 p {
+  text-align: center;
+  max-width: 160px;
 }
 
 .s3 {
-    background-color: #ececec;
-    padding: 100px 120px 100px 120px;
-    color: black;
-    font-size: 2em;
-    font-weight: 300;
+    background-color: #E5E7EB;
+    padding: 100px 200px 100px 200px;
+    color: #1F2937;
+    font-size: 36px;
     font-style: italic;
-    
 }
 
 .s3 p {
     font-weight: 900;
     font-size: 20px;
+    font-style: normal;
     text-align: right;
 }
 
@@ -164,7 +202,7 @@ body {
 .cta {
     display: flex;
     padding: 35px 100px 35px 100px;
-    background-color: #3b95ec;
+    background-color: #3882F6;
     border-radius: 5px;
     color: white;
 }
@@ -187,8 +225,15 @@ body {
     margin-left: 30px;
     font-weight: 900;
     font-size: 15px;
-    background-color: #3b95ec;
+    background-color: #3882F6;
     border: solid white 2px;
     border-radius: 3px;
     color: white;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }

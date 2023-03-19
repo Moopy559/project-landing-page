@@ -31,7 +31,8 @@ body {
 .s1-mid {
   display: flex;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 100px; 
+  justify-content: space-between;
 }
   
 
@@ -68,13 +69,15 @@ body {
 }
   
 .img-placeholder {
-  background-color: rgb(116, 116, 117);
-  flex: 1;
+  display: block;
+  
+  
 }
 
-.img-placeholder p {
-  text-align: center;
-  padding: 25% 25%;
+.img-placeholder img {
+  width: 600px;
+  height: 300px;
+  
 }
 
 /* SECTION TWO */

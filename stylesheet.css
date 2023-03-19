@@ -209,6 +209,10 @@ body {
     background-color: #3882F6;
     border-radius: 5px;
     color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
 }
 
 .cta div {

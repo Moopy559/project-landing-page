@@ -10,6 +10,7 @@ body {
   padding-left: 96px;
   padding-right: 96px;
   color: white;
+  justify-content: center;
 }
 
 .s1-header {
@@ -33,12 +34,13 @@ body {
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px; 
-  justify-content: space-between;
+  justify-content: center;
 }
   
 
 .s1-mid-left {
   display: flex;
+  flex-basis: 400px;
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 25px 0px 0px;
@@ -89,6 +91,7 @@ body {
   background-color: white;  
   padding-top: 10px; 
   padding-bottom: 100px;
+  justify-content: center;
 }
 
 .s2-top {
@@ -105,80 +108,68 @@ body {
 
 .s2-top-gallery {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .group-1 {
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    width: 190px;
 }
 
 .box-1 {
     border: solid #3882F6 5px;
     border-radius: 10px;
-    max-width: 150px;
+    width: 150px;
     height: 150px;
-}
-
-.group-1 p {
-  text-align: center;
-  max-width: 160px;
+    margin: 0px 20px 0 20px;
 }
 
 .group-2 {
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: 190px;
 }
 
 .box-2 {
     border: solid #3882F6 5px;
     border-radius: 10px;
-    max-width: 150px;
+    width: 150px;
     height: 150px;
+    margin: 0px 20px 0 20px;
 }
 
-.group-2 p {
-  text-align: center;
-  max-width: 160px;
-}
 
 .group-3 {
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: 190px;
 }
 
 .box-3 {
     border: solid #3882F6 5px;
     border-radius: 10px;
-    max-width: 150px;
+    width: 150px;
     height: 150px;
+    margin: 0px 20px 0 20px;
 }
 
-.group-3 p {
-  text-align: center;
-  max-width: 160px;
-}
 
 .group-4 {
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  width: 190px;
 }
 
 .box-4 {
     border: solid #3882F6 5px;
     border-radius: 10px;
-    max-width: 150px;
+    width: 150px;
     height: 150px;
+    margin: 0px 20px 0 20px;
 }
 
-.group-4 p {
-  text-align: center;
-  max-width: 160px;
-}
+
 
 .s3 {
     background-color: #E5E7EB;
@@ -186,13 +177,22 @@ body {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
 }
 
 .s3 p {
-    font-weight: 900;
-    font-size: 20px;
-    font-style: normal;
-    text-align: right;
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.s3 b {
+  text-align: right;
+  font-size: 20px;
 }
 
 .s4 {
